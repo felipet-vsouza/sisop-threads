@@ -3,8 +3,6 @@
 
 void us_schedule(void);
 
-void us_exit(void);
-
 int us_create(void *(*fn)(void *), void *arg);
 
 #endif
