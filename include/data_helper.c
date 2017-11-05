@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <pthread.h>
 
 #define ARRAY_SIZE 1000000
 
@@ -41,4 +42,19 @@ void *count_array_from_half_to_end(void *arg)
         count = count + (*data)->array[i];
     }
     (*data)->result = (*data)->result + count;
+}
+
+/**
+ * Data processing wrappers created due to necessity to call pthread_exit
+*/
+void *ks_count_array_from_half_to_start(void *arg)
+{
+    count_array_from_half_to_start(arg);
+    pthread_exit(NULL);
+}
+
+void *ks_count_array_from_half_to_end(void *arg)
+{
+    count_array_from_half_to_start(arg);
+    pthread_exit(NULL);
 }
