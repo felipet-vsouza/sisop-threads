@@ -60,6 +60,6 @@ int us_create(void *(*start_routine)(void *), void *arg)
     us_threads[i].arg = arg;
     us_threads[i].exit_status = 0;
 
-    makecontext(&us_threads[i].context, us_exit, 0);
+    makecontext(&us_threads[i].context, us_exit, 1, arg);
     return 0;
 }
