@@ -1,0 +1,108 @@
+Distributor ID:	elementary
+Description:	elementary OS 0.4.1 Loki
+Release:	0.4.1
+Codename:	loki
+_____________________________________________________
+
+1a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 4522.10986 us.
+O processamento com threads a nível usuário usando round robin levou 5413.71094 us.
+O processamento com threads duplas a nível usuário usando round robin levou 7030.89014 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 3207.51099 us.
+O processamento com threads duplas a nível kernel levou 2502.08008 us.
+_____________________________________________________
+
+2a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 6601.47803 us.
+O processamento com threads a nível usuário usando round robin levou 5592.42480 us.
+O processamento com threads duplas a nível usuário usando round robin levou 4822.78076 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 8445.13770 us.
+O processamento com threads duplas a nível kernel levou 194.83200 us.
+_____________________________________________________
+
+3a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 4265.95996 us.
+O processamento com threads a nível usuário usando round robin levou 4549.48389 us.
+O processamento com threads duplas a nível usuário usando round robin levou 4392.58594 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 2213.63208 us.
+O processamento com threads duplas a nível kernel levou 121.17100 us.
+_____________________________________________________
+
+4a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 4304.23193 us.
+O processamento com threads a nível usuário usando round robin levou 4843.88623 us.
+O processamento com threads duplas a nível usuário usando round robin levou 5016.03418 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 4049.40210 us.
+O processamento com threads duplas a nível kernel levou 150.61301 us.
+_____________________________________________________
+
+5a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 5294.78613 us.
+O processamento com threads a nível usuário usando round robin levou 5342.33594 us.
+O processamento com threads duplas a nível usuário usando round robin levou 4270.91504 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 4080.51294 us.
+O processamento com threads duplas a nível kernel levou 177.71600 us.
+_____________________________________________________
+
+6a tentativa:
+_____________________________________________________
+
+7a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 4676.31787 us.
+O processamento com threads a nível usuário usando round robin levou 4426.93896 us.
+O processamento com threads duplas a nível usuário usando round robin levou 4386.06299 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 3687.59204 us.
+O processamento com threads duplas a nível kernel levou 176.44000 us.
+_____________________________________________________
+
+8a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 5064.13086 us.
+O processamento com threads a nível usuário usando round robin levou 4345.80078 us.
+O processamento com threads duplas a nível usuário usando round robin levou 4279.93896 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 2903.95605 us.
+O processamento com threads duplas a nível kernel levou 164.67101 us.
+_____________________________________________________
+
+9a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 5431.38916 us.
+O processamento com threads a nível usuário usando round robin levou 4659.58496 us.
+O processamento com threads duplas a nível usuário usando round robin levou 4526.31201 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 2288.29199 us.
+O processamento com threads duplas a nível kernel levou 194.16901 us.
+_____________________________________________________
+
+10a tentativa:
+User level:
+O processamento com threads simples a nível usuário levou 5460.52979 us.
+O processamento com threads a nível usuário usando round robin levou 4677.64111 us.
+O processamento com threads duplas a nível usuário usando round robin levou 4469.75488 us.
+
+Kernel level:
+O processamento com threads simples a nível kernel levou 2408.73511 us.
+O processamento com threads duplas a nível kernel levou 144.45599 us.
+_____________________________________________________
+

@@ -46,7 +46,7 @@ void us_process(arr_count_t **data)
     count_array_from_half_to_start(data);
 
     end_timecount(&diff);
-    printf("O processamento com threads simples a nível usuário levou %.5f ms.\n", get_timecount(&diff));
+    printf("O processamento com threads simples a nível usuário levou %.5f us.\n", get_timecount(&diff));
 }
 
 void urr_process(arr_count_t **data)
@@ -60,7 +60,7 @@ void urr_process(arr_count_t **data)
     count_array_from_half_to_start(data);
 
     end_timecount(&diff);
-    printf("O processamento com threads a nível usuário usando round robin levou %.5f ms.\n", get_timecount(&diff));
+    printf("O processamento com threads a nível usuário usando round robin levou %.5f us.\n", get_timecount(&diff));
 }
 
 void urr_process_double(arr_count_t **data)
@@ -74,7 +74,7 @@ void urr_process_double(arr_count_t **data)
     urr_schedule();
 
     end_timecount(&diff);
-    printf("O processamento com threads duplas a nível usuário usando round robin levou %.5f ms.\n", get_timecount(&diff));
+    printf("O processamento com threads duplas a nível usuário usando round robin levou %.5f us.\n", get_timecount(&diff));
 }
 
 void ks_process(arr_count_t **data)
@@ -88,7 +88,7 @@ void ks_process(arr_count_t **data)
     count_array_from_half_to_start(data);
 
     end_timecount(&diff);
-    printf("O processamento com threads simples a nível kernel levou %.5f ms.\n", get_timecount(&diff));
+    printf("O processamento com threads simples a nível kernel levou %.5f us.\n", get_timecount(&diff));
 }
 
 void ks_process_double(arr_count_t **data)
@@ -102,5 +102,5 @@ void ks_process_double(arr_count_t **data)
     ks_schedule();
 
     end_timecount(&diff);
-    printf("O processamento com threads duplas a nível kernel levou %.5f ms.\n", get_timecount(&diff));
+    printf("O processamento com threads duplas a nível kernel levou %.5f us.\n", get_timecount(&diff));
 }

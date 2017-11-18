@@ -29,5 +29,8 @@ urr-example: $(SRC_DIR)/examples/urr-example.c $(INC_DIR)/user-roundrobin.c
 urr-example-debug: $(SRC_DIR)/examples/urr-example.c $(INC_DIR)/user-roundrobin.c
 	$(CC) -o $(BIN_DIR)/urr-example $(SRC_DIR)/examples/urr-example.c $(INC_DIR)/user-roundrobin.c $(DEBUG_FLAG)
 
+bateria-testes:
+	./$(SRC_DIR)/test-battery.sh
+
 clean:
 	rm -rf $(BIN_DIR)/*
