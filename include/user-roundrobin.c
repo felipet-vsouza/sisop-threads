@@ -1,8 +1,10 @@
+#define _XOPEN_SOURCE 600
+
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/time.h>
-#include <ucontext.h>
 #include <signal.h>
+#include <ucontext.h>
 
 #define STACK_SIZE 1024
 #define THREADS_MAX 8

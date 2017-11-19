@@ -1,3 +1,5 @@
+#define _XOPEN_SOURCE 600
+
 #include <ucontext.h>
 
 #define STACK_SIZE 1024
